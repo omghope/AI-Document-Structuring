@@ -1,0 +1,24 @@
+# Ignore system files
+venv/
+*.tmp
+*.ini
+*.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore OneDrive sync files
+*.one
+*.lnk
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore Streamlit cache
+.streamlit/
+
+# Ignore temporary Streamlit uploads
+temp_uploaded.pdf
+
+# Ignore generated Excel output
+Output.xlsx
